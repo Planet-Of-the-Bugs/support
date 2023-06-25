@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import { Button } from "svelte-ui";
+</script>
+<div class="space-y-2">
+    <h1>Hello @Emmanuel-Melon, what can we help with?</h1>
+<div class="flex gap-2">
+    <Button CTA="Feature Request" onClick={()=>{}}  bg="primary"/>
+        <Button CTA="Bug Report" onClick={()=>{}} bg="ghost"/>
+</div>
+</div>
